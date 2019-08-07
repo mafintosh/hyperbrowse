@@ -1,0 +1,25 @@
+{
+  "name": "hyperbrowse",
+  "version": "0.0.0",
+  "description": "Browse Hyperdrive 10 archives over a localhost http server",
+  "bin": {
+    "hyperbrowse": "./bin.js"
+  },
+  "dependencies": {
+    "@hyperswarm/replicator": "^1.0.0",
+    "hyperdrive": "^10.0.0",
+    "hyperdrive-http": "^4.4.0",
+    "prettier-bytes": "^1.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/hyperbrowse.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/hyperbrowse/issues"
+  },
+  "homepage": "https://github.com/mafintosh/hyperbrowse"
+}
