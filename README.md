@@ -1,6 +1,6 @@
 # hyperbrowse
 
-Browse Hyperdrive 10 archives over a localhost http server
+Browse Hyperdrive 10 archives over a localhost http server:
 
 ``` sh
 npm install -g hyperbrowse
@@ -8,7 +8,7 @@ npm install -g hyperbrowse
 
 First time you spin it up pass the Hyperdrive key you want to explore:
 
-This is wikipedia for example
+This is wikipedia for example:
 
 ``` sh
 hyperbrowse -d wiki -k 907c949c372f7281c13330b7bd3feb922a936c4f5ae04e61e34e3c90fc6eba9b
@@ -16,6 +16,12 @@ hyperbrowse -d wiki -k 907c949c372f7281c13330b7bd3feb922a936c4f5ae04e61e34e3c90f
 
 Then simply navigate your browser to the address printed (usually http://localhost:8080)
 to start browsing.
+
+## Options
+
+- `-d`: the directory where hyperbrowse will store the Hyperdrive
+- `-k`: the Hypercore archive you want to browse
+
 
 For more info run `hyperbrowse --help`
 
