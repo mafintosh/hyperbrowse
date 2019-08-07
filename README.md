@@ -19,8 +19,9 @@ to start browsing.
 
 ## Options
 
-- `-d`: the directory where hyperbrowse will store the Hyperdrive
+- `-d {dir}`: the directory where hyperbrowse will store the Hyperdrive
 - `-k`: the Hypercore archive you want to browse
+- `-ram`: run completely in memory
 
 
 For more info run `hyperbrowse --help`
