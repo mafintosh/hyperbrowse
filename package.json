@@ -1,6 +1,6 @@
 {
   "name": "hyperbrowse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browse Hyperdrive 10 archives over a localhost http server",
   "bin": {
     "hyperbrowse": "./bin.js"
