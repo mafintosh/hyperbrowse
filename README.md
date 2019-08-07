@@ -20,7 +20,7 @@ to start browsing.
 ## Options
 
 - `-d {dir}`: the directory where hyperbrowse will store the Hyperdrive
-- `-k`: the Hypercore archive you want to browse
+- `-k {key}`: the Hypercore archive you want to browse
 - `-ram`: run completely in memory
 
 
