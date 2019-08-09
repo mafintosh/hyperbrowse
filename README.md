@@ -6,9 +6,9 @@ Browse Hyperdrive 10 archives over a localhost http server:
 npm install -g hyperbrowse
 ```
 
-First time you spin it up pass the Hyperdrive key you want to explore:
+The first time you spin it up, pass the Hyperdrive key you want to explore.
 
-This is wikipedia for example:
+This is Wikipedia for example:
 
 ``` sh
 hyperbrowse -d wiki -k 907c949c372f7281c13330b7bd3feb922a936c4f5ae04e61e34e3c90fc6eba9b
@@ -19,9 +19,10 @@ to start browsing.
 
 ## Options
 
-- `-d {dir}`: the directory where hyperbrowse will store the Hyperdrive
-- `-k {key}`: the Hypercore archive you want to browse
-- `-ram`: run completely in memory
+- `-k`, `--key`: the hyperdrive 10 key
+- `-d`, `--dir`: where to store the data
+- `-p`, `--port`: which HTTP port to use.
+- `--ram`: ponly use RAM for storage
 
 
 For more info run `hyperbrowse --help`
